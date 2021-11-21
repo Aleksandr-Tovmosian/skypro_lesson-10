@@ -1,10 +1,37 @@
-category.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+
+<h2>Введите ваш адрес, куда доставить</h2><hr>
+<form action="ready.html">
+
+    <div>
+        <label for="u_city">Город<br></label>
+        <input type="text" size="30"
+            id="u_city" name="city" placeholder="Куда везти?"><br><br>
+
+        <label for="u_street">Улица<br></label>
+        <input type="text" size="30"
+            id="u_street" name="street" placeholder="Немного точнее"><br><br>
+
+        <label for="u_building">Дом, корпус и строение<br></label>
+        <input type="text" size="30"
+            id="u_building" name="building" placeholder="Ещё точнее"><br><br>
+
+        <label for="u_other">Пожелания и примечания, если есть<br></label>
+        <input type="text" size="30"
+            id="u_other" name="other" placeholder=""><br><br>
+
+    </div>
+    <div>
+        <button>Продолжить</button>
+    </div>
+
+</form>
 
 </body>
 </html>
