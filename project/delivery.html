@@ -5,33 +5,33 @@
     <title>Title</title>
 </head>
 <body>
+<main style ="width: 300px; margin: 0 auto;">
+    <h2>Выберите способ доставки заказа</h2>
 
-<h2>Выберите способ доставки заказа</h2>
 
+    <form action="address.html">
+        <div>
+            <input type="radio" name="delivery"
+                   id="delivery-1" value="courier">
+            <label for="delivery-1">Курьером</label><br>
 
-<form action="address.html">
-    <div>
-        <input type="radio" name="delivery"
-               id="delivery-1" value="courier">
-        <label for="delivery-1">Курьером</label><br>
+            <input type="radio" name="delivery"
+                   id="delivery-2" value="drone">
+            <label for="delivery-2">Дронами</label><br>
 
-        <input type="radio" name="delivery"
-               id="delivery-2" value="drone">
-        <label for="delivery-2">Дронами</label><br>
+            <input type="radio" name="delivery"
+                   id="delivery-3" value="pneumatic_tubes">
+            <label for="delivery-3">Пневмопочтой</label><br>
 
-        <input type="radio" name="delivery"
-               id="delivery-3" value="pneumatic_tubes">
-        <label for="delivery-3">Пневмопочтой</label><br>
-
-        <input type="radio" name="delivery"
-               id="delivery-4" value="branch_of_hell" checked>
-        <label for="delivery-4">Филиал ада</label><br>
-    </div>
-    <br>
-    <div>
-        <input type="submit" value="Продолжить" name="additional_items">
-    </div>
-</form>
-
+            <input type="radio" name="delivery"
+                   id="delivery-4" value="branch_of_hell" checked>
+            <label for="delivery-4">Филиал ада</label><br>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Продолжить" name="additional_items">
+        </div>
+    </form>
+</main>
 </body>
 </html>
